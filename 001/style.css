@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    background-image: url(/imagens/wallpaper.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-search{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+
+}
+.search{
+    background: transparent;
+    height: 50px;
+    width: 80%;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    display: none;
+    transition: all .5s;
+}
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.501);
+}
+img{
+    height: 40px;
+    width: 40px;
+    transition: all .5s;
+}
+.container-search:hover{
+    width: 400px;
+
+}
+.container-search:hover .search{
+    display: block;
+
+}
