@@ -4,7 +4,7 @@
 }
 body{
     background-color: black;
-    background-image: url(/imagens/wallpaper.jpg);
+    background-image: url(imagens/wallpaper.jpg);
     height: 100vh;
     display: flex;
     justify-content: center;
